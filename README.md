@@ -119,12 +119,21 @@ Input: iiiii>iiiiir0
 Output: [0, 0]
 ~~~
 
-<h2>Hello World</h2>
-I'm not really going to teach you how to pull off a hello world, because I would be here forever if I did. but rather I'll show you the smallest "hello world" program i've made so far so you can get an idea on how the code is structured.
+<h2>Full Examples</h2>
+I'm not really going to teach you what kind of dark voodoo magic makes any of this work, but i thought it would be cool to show off nonetheless
+<br><br>
+Written by Me (smallest hello world i've made)
 
 ~~~
 Input: iic**iiarii*ia>iii*i<+aa>dddd<+a>dddaiiiciiiiiii<+ariiii**da>iii<+a>*<-arii*a
 Output: Hello World
+~~~
+<br>
+Written by <a href="https://github.com/TechSecWasTaken">Techsec</a>
+
+~~~
+Input: ii*i**>ii*isi<+arii**arii*iar>a<rii***iarii*i**iarii**iariiiarii*i*iar>a<riiariiis*arii*i*>ii*i<+arii*i**iiiarii*iii*ar>a<riii*arii*i*>ii*i<+arii***>ii**<+ar>a<ii*i**arii**arii*iar>a<iii**ariarii****>iii*<-arii*isar>a<ii*arii*i*>ii*i<+arii*>iii<+a
+Output: The quick brown fox the lazy dog
 ~~~
 <h1>Whats to come?</h1>
 I dont plan on expanding this language too much more, but I'd love to add a form of input, as well as a way to read dualfish files. But yeah, I think thats everything. Have fun!
