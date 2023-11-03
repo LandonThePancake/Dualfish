@@ -23,15 +23,15 @@ We will start off with the functions that modify the value of said registers, an
 <h2>Math Functions</h2>
 Our first set of functions are used to add and subtract 1 from a register. "i" increments a register by 1 and "d" decrements a register. Simple.
 <br><br>
-
 <b>Incrementing a register</b>
+
 ~~~
 INPUT: iii
 (register 1 is now equal to 3)
 ~~~
 <br>
-
 <b>Decrementing a register</b>
+
 ~~~
 INPUT: ddd
 (register 1 is now equal to -3)
@@ -39,13 +39,15 @@ INPUT: ddd
 <br>
 Next, we have "s" and "c", which squares and cubes a register respectively.
 <br><br>
-
 <b>Squaring a register</b>
+
 ~~~
 INPUT: iiis
 (register 1 is now equal to 9)
 ~~~
+<br>
 <b>Cubing a register</b>
+
 ~~~
 INPUT: iiic
 (register 1 is now equal to 27)
@@ -53,8 +55,8 @@ INPUT: iiic
 <br>
 There is also a "*" function that multiplies our register by 2.
 <br><br>
-
 <b>Doubling a register</b>
+
 ~~~
 INPUT: iii*
 (register 1 is now equal to 6)
@@ -86,14 +88,15 @@ Number output is pretty easy in dualfish, I don't think I need to explain this o
 <br>
 "0" outputs the value of both registers side by side.
 <br><br>
-
 <b>Output with o</b>
+
 ~~~
 INPUT: iii*do
 OUTPUT: 5
 ~~~
-
+<br>
 <b>Output with 0</b>
+
 ~~~
 INPUT: iii*d0
 OUTPUT: [5, 0]
@@ -105,7 +108,6 @@ The "a" function outputs an alphabetical letter that corresponds to a registers 
 <br>So, 1 = a, 2 = b, 3 = c, etc.
 <br>Its also worth noting that when you go past 26 (or z), you can find UPPERCASE letters. Just don't go past 52, because that will throw an error.
 <br><br>
-
 <b>Alphabet Output with a</b>
 <br>
 
@@ -116,7 +118,6 @@ OUTPUT: hi
 <br>
 "a" is also used to output symbols. If you use the "^" command, you will go into "symbol-mode", where you have access symbols instead of letters. Its also worth bringing up that "v" will bring you back to "alphabet-mode"
 <br><br>
-
 <b>Symbol Output with a</b>
 <br>
 
@@ -137,7 +138,6 @@ OUTPUT: 42
 <h2>Adding and subtracting registers</h2>
 Now that we know how to assign values to each register, we can use "+" and "-" to add and subtract our registers together. The selected register is the one that will be added/subtracted from.
 <br><br>
-
 <b>Adding Registers</b>
 
 ~~~
@@ -145,8 +145,9 @@ INPUT: iiiii>ii<+0
 OUTPUT: [7, 2]
 (note that reg2 holds its value, even after adding it to reg1)
 ~~~
-
+<br>
 <b>Subtracting Registers</b>
+
 ~~~
 INPUT: iiiii>ii<-0
 OUTPUT: [3, 2]
