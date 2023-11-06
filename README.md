@@ -1,6 +1,6 @@
 # Dualfish Interpreter
 
-Written by LandonThePancake in Python v3.12.0<br>
+Written by LandonThePancake in Python v3.12.0<br><br>
 <img src="dufilogolq.png" alt="dufi" width="250" height="250">
 
 <h2>Info</h2>
