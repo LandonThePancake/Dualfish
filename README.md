@@ -196,7 +196,4 @@ The last function is the "e" function. it simply closes the application when cal
 INPUT: e
 (closes the application)
 ~~~
-<h2>That's all! (probably)</h2>
-I'm almost done with this language, and only really need to add input and optimizations to call it done. Good luck learning this shit!
-<br>
-(Also I may remake this in C at some point, because I don't really think python is the right language for this.)
+
