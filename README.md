@@ -155,6 +155,18 @@ OUTPUT: [3, 2]
 (note that reg2 holds its value, even after subrtacting it from reg1)
 ~~~
 <h2>Other functions and info</h2>
+":" is used to take in a user input (int), but due to the limitations of the language, it's very situational. But you can still make things like basic calculators.
+<br><br>
+<b>Taking and using user input</b>
+<br>
+
+~~~
+INPUT: :>:<+o
+(asks for input1)
+(asks for input2)
+(combines them and displays the value)
+~~~
+<br>
 "r" resets BOTH registers back to 0. This can be used as a shortcut back to the starting point of the register.
 <br><br>
 <b>Resetting a register</b>
