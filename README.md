@@ -3,7 +3,7 @@
 Written by LandonThePancake in Python v3.12.0<br><br>
 <img src="dufilogolq.png" alt="dufi" width="250" height="250">
 
-<b>NOTE: v2.0 of this project is currently being developed!! This will include a full rewrite of the interpreter, and may break some things. So stay tuned for that!!</b>
+<b>NOTE: v2.0 of this project is currently being developed!! This will include many changes and additions to the interpreter, so it may break some things!!</b>
 
 <h2>Info</h2>
 Dualfish is an esoteric programming language heavily inspired by the language "deadfish". Dualfish aims to add more to deadfish, while having the goal of making it slightly more interesting <b>(whilst also making no god-damn sense)</b>.
